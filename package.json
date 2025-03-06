@@ -1,0 +1,28 @@
+{
+  "name": "filmeemusica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.2.3",
+    "@expo-google-fonts/merriweather": "^0.2.3",
+    "@expo-google-fonts/playfair-display": "^0.2.3",
+    "@unimodules/core": "^7.2.0",
+    "expo": "~52.0.37",
+    "expo-app-loading": "^1.1.2",
+    "expo-font": "~13.0.4",
+    "expo-splash-screen": "~0.29.22",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
