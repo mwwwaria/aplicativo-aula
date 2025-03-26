@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "filmeEmusica",
-    "slug": "filmeEmusica",
+    "name": "aplicacao",
+    "slug": "aplicacao",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,8 +24,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-font"
+    
+    "plugins": [ [
+      "expo-font",
+      {
+        "fonts": ["node_modules/@expo-google-fonts/noto-serif/NotoSerif_400Regular.ttf"]
+      }
+    ]
     ]
   }
 }
